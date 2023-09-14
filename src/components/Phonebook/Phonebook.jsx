@@ -21,7 +21,7 @@ class Phonebook extends Component {
 
   render() {
     return (
-      <div>
+      <div className={css.phonebookWrapper}>
         <h1 className={css.phonebookTitle}>Phonebook</h1>
         <form onSubmit={this.handleSubmit}>
           <label htmlFor="nameInput" className={`form-label ${css.formLabel}`}>
